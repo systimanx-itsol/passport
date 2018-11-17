@@ -1,0 +1,153 @@
+ #myInput {
+    background-image: url('../images/searchicon.png'); /* Add a search icon to input */
+    background-position: 7px 8px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 77%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 3px 5px 3px 30px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 0px;
+    margin-left: 6%;
+    float: left;
+    background-size: 16px 16px;
+}
+  #myInput_city {
+    background-image: url('../images/searchicon.png'); /* Add a search icon to input */
+    background-position:  7px 8px;/* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 77%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 3px 5px 3px 30px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 0px;
+    margin-left: 6%;
+    float: left;
+    background-size: 16px 16px;
+}
+  #myInput_area {
+    background-image: url('../images/searchicon.png'); /* Add a search icon to input */
+    background-position:  7px 8px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 77%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 3px 5px 3px 30px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 0px;
+    margin-left: 6%;
+    float: left;
+    background-size: 16px 16px;
+}
+
+ #myInput_aprt{
+    background-image: url('../images/searchicon.png'); /* Add a search icon to input */
+    background-position:  7px 8px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 77%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 3px 5px 3px 30px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 0px;
+    margin-left: 6%;
+    float: left;
+  background-size: 16px 16px;
+}
+.plus
+{
+        margin: 3px 0px 5px 10px;
+            padding: 4px 10px;
+}
+.heading{
+    font-size: 130%;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 6px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 14px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; 
+    cursor: pointer;
+}
+#myUL_city {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL_city li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 6px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 14px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL_area li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+#myUL_area {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL_area li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 6px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 14px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL_area li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+#myUL_aprt li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+#myUL_aprt {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL_aprt li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 6px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 14px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL_aprt li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
