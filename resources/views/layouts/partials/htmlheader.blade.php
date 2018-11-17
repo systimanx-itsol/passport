@@ -1,9 +1,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="{{ asset('/images/favicon.png') }}"/>
-    @if(Auth::user()->user_type == "A")
+    @if(Auth::check() && Auth::user()->user_type == "A")
     <title>  @yield('htmlheader_title', 'Admin') </title>
-    @elseif(Auth::user()->user_type == "U")
+    @elseif(Auth::check() && Auth::user()->user_type == "U")
     <title>  @yield('htmlheader_title', 'User') </title>
     @endif
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
